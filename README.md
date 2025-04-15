@@ -1,73 +1,60 @@
-# Welcome to your Lovable project
 
-## Project info
+# D-Lite Nexus AI - Multi-Functional LLM Chatbot Platform
 
-**URL**: https://lovable.dev/projects/d9830553-3558-483b-9c34-e8e8835a79ed
+D-Lite Nexus AI is an advanced LLM (Large Language Model) chatbot platform that combines conversational AI, data analysis, and web search integration in a unified user interface.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+The platform offers three distinct functionalities:
 
-**Use Lovable**
+1. **Chat Section**: Interactive chatbot interface with LLM selector
+   - Choose from multiple AI models
+   - Real-time conversation
+   - Message history and copy functionality
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d9830553-3558-483b-9c34-e8e8835a79ed) and start prompting.
+2. **Data Analysis Section**: File upload and data exploration
+   - Support for multiple file formats (PDF, DOC, TXT, CSV, XLS, JSON)
+   - Automated analysis of uploaded content
+   - Extraction of key insights and entities
 
-Changes made via Lovable will be committed automatically to this repo.
+3. **Web Search Integration**: Live web querying with AI-enhanced results
+   - Real-time web search functionality
+   - AI synthesis of search results
+   - Comprehensive answers with source attribution
 
-**Use your preferred IDE**
+## Technology Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- React
+- TypeScript
+- Tailwind CSS
+- shadcn-ui components
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Local Development
 
-Follow these steps:
+```bash
+# Clone the repository
+git clone https://your-repo-url/d-lite.git
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Navigate to the project directory
+cd d-lite
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Install dependencies
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Project Structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- `/src/components/dlite` - Core application components
+  - `/chat` - Chat interface components
+  - `/analysis` - File analysis components
+  - `/search` - Web search components
+  - `/layout` - Layout and structural components
+  - `/sections` - Main section components
+- `/src/pages` - Application pages
 
-**Use GitHub Codespaces**
+## License
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/d9830553-3558-483b-9c34-e8e8835a79ed) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+[MIT License](LICENSE)
